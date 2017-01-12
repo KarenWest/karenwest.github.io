@@ -13,8 +13,7 @@
             height: 85px;"></a> </div>
 
             <ul></ul>
-			<p id="name">Karen Shay West - Web Site Under
-			Construction - Contact Information at Bottom of Page.</p>
+			<p id="name">Karen Shay West: 9 Shannon Marie Way, North Easton, MA 02356 | Tel: (508) 844-9776</p>
 	        <a href="mailto:KarenWest15@gmail.com"><p id="email">KarenWest15@gmail.com</p></a>
 	        <ul></ul>
             <!--<a href="https://github.com/KarenWest/myFilesForWebSite/KarenShayWest_4pageResumeCV_June2016.pdf">Link
@@ -25,9 +24,9 @@
             <a href="http://www.linkedin.com/in/karenshaywest">Click to go to my Linked In site!</a>
 
 		</div>
-		<div class="left">
+		<div class="cshellleft">
 		  <ul>
-		    <li id="left-01"><a href="karenshaywest.html">BELOW: List of Recent
+		    <li id="left-01"><a href="index.html">BELOW: List of Recent
 		    Learning - CLICK HERE to Go To My Home Page Resume</a></li>
 	            <li id="left-02"><a href="embeddedsystemslabs.html">Embedded Systems Projects</a></li>
 		    <li id="left-03"><a href="cshell.html">C Shell Linux
@@ -60,7 +59,7 @@
 		  </ul>
 		</div>
 
-		<div class="cshell">
+		<div class="cshellright">
 		  <h4>Very Basic C Shell Linux Command Line Interpreter</h4>
 		  <a href="https://drive.google.com/open?id=0B0ao1LZvdelITFVGUHBqbHFhR1U">Link
 		  to my C Shell Project Files</a>
@@ -96,7 +95,7 @@
 		      <p>Only the first very basic version of the shell is done and the rest are future work:</p> 
 		      <ul>
 			<li>Basic shell (done in C) for specifying and
-			executing programs, called “myshell”.</li>
+			executing programs, called "myshell" .</li>
 
 			<li>Goal: to implement a basic shell called "myshell", 
 			  to learn how a command interpreter works. It's a 
@@ -126,8 +125,8 @@
 			    "myshell" reads its input from stdin, parsing the 
 			    command line to determine how to execute the shell 
 			    request. Termination of "myshell" occurs either 
-			    when a user types "ctrl­d", or when the program 
-			    issues an "exit()" call due to some 
+			    when a user types <em>ctrl-d</em>, or when the
+			    program issues an "exit()" call due to some 
 			    error/termination condition. </li>
 			  </ol>
 		      </ul>
@@ -164,7 +163,7 @@
 			      further input commands.</li>
 			</ul>
 			<h4>Testing It:</h4>
-			<p>At Linux prompt, type gdb “myshell”, which starts
+			<p>At Linux prompt, type <em>gdb myshell</em> , which starts
 			  the gdb debugger. It works for some but not all of
 			  the specified cases.</p>
 			<h4>Test cases that I tried before setting project
@@ -209,7 +208,7 @@
 			</ul>
 			<h4>Special Input:</h4>
 			<ul>
-			  <li>"ctrl­c" is the default key sequence to send a 
+			  <li><em>ctrl-c</em> is the default key sequence to send a 
 			    "SIGINT" signal to a process. </li>
 			  <li>In "myshell", you should intercept this signal, 
 			    and send it to all "foreground" processes to stop 
@@ -244,11 +243,11 @@
 			  <li>write and test a parser to read the command
 			    lines--this works</li>
 			  <li>get the simple commands to work--this works</li>
-			  <li>get I/O redirection to work – this works</li>
+			  <li>get I/O redirection to work--this works</li>
 			  <li>get pipes to work--this works for some cases but
 			    not with 2nd command sent to an output file
 			    instead of stdout</li>
-			  <li>get "&" to work – not implemented yet</li>
+			  <li>get "&" to work--not implemented yet</li>
 			  <li>Parsing shell strings: in this project, you only 
 			    need to implement a simple command line parser, in 
 			    which we use "space" as the delimiter between 
@@ -256,30 +255,30 @@
 			  <li>You can use support libraries such as the Gnu 
 			    readline library for command line parsing.</li>
 			  <li>A multi-process version of the traveling salesman 
-			    problem, called “tsp_p”--future work.</li>
+			    problem, called <em>tsp_p</em>--future work.</li>
 			  <li>A multi-threaded version of the traveling
-			  problem, called “tsp_t”, with an added bonus of 
-			  implementing it without the SYSV context functions.  
-			  Solutions that bind user level threads with kernel 
-			  threads are also a bonus, and using pthreads or any 
-			  other threads library is not the approach to take, 
-			  and instead, you create your own threads.  It was 
-			  also recommended NOT to rely on the Linux clone() 
-			  call in the thread creation solution, if at all.  
-			  The solution can bind user level threads onto user 
-			  level threads, but you still need to use a different 
-			  approach for making the portable user-level
-			  threads--future work.</li>
-			  <li>A sorter program, called “tspsort”, that sorts the
-			  paths found in the traveling salesman problem, from 
-			  shortest path to longest path distance--future --
-				--work.</li>
+			    problem, called <em>tsp_t</em>, with an added
+			    bonus of implementing it without the SYSV context 
+			    functions.  Solutions that bind user level threads 
+			    with kernel threads are also a bonus, and using 
+			    pthreads or any other threads library is not the 
+			    approach to take, and instead, you create your own 
+			    threads.  It was also recommended NOT to rely on 
+			    the Linux clone() call in the thread creation 
+			    solution, if at all.  The solution can bind user 
+			    level threads onto user level threads, but you 
+			    still need to use a different approach for making 
+			    the portable user--level threads--future work.</li>
+			  <li>A sorter program, called <em>tspsort</em>, that
+			  sorts the paths found in the traveling salesman
+			  problem, from shortest path to longest path
+			  distance--future--work.</li>
 			</ol>
 			<h4>Testing Involved In Future Work:</h4>
-			<p>In “myshell”, run “tsp_p < input_graph | tspsort >
-			tsp_p.out”</p>
+			<p>In <em>myshell</em>, run <em>tsp_p < input_graph | tspsort >
+			tsp_p.out”</em>
 
-			<p>“tsp_p” computes all possible paths through a graph 
+			<p><em>tsp_p</em> computes all possible paths through a graph 
 			  (G) of vertices (V) and edges (E).</p>
 			<ul>
 			  <li>A path is defined as an ordered list of nodes 
@@ -291,13 +290,13 @@
 			    edge weights between pairs of nodes in G visited 
 			    along a specific path each path along the route 
 			    with its overall distance will be the output to 
-			    stdout by “tsp_p” as it is discovered the result 
-			    is “piped” by “myshell” to stdin of “tspsort”, 
-			    which collects all paths and orders them from 
-			    shortest to longest distance</li>
+			    stdout by <em>tsp_p</em> as it is discovered the
+			    result is <em>piped</em> by “myshell” to stdin of
+			    <em>tspsort</em>, which collects all paths and
+			    orders them from shortest to longest distance</li>
 
-			  <li>In “myshell”, run “tsp_t < input_graph | tspsort 
-							 > tsp_t.out”, with the same goals with the thread version as above with the process version</li>
+			  <li>In <em>myshell</em>, run <em>tsp_t < input_graph | tspsort 
+							 > tsp_t.out</em>, with the same goals with the thread version as above with the process version</li>
 			  </ul>
 
 			<h4>Traveling Salesman Multi-Process Version--Future Work:</h4>
@@ -307,8 +306,8 @@
 			    Problem (TSP) on an input graph, G={V,E},
 			    comprising a set of nodes or vertices, V, and a
 			    set of edges, E. Your main program (called
-			    "tsp_p") is to be invoked as follows:</li>
-			  <p>"$ tsp_p"</p>
+			    <em>tsp_p</em>) is to be invoked as follows: 
+			    <em>$ tsp_p</em></li>
 			  <li>It then reads an input graph from stdin. You can 
 			    assume the input graph, G has |V|=n vertices 
 			    representing different cities. </li>
@@ -327,9 +326,9 @@
 			  <li>Not all cities need to have a direct path
 			    between them. In this case you can assume there is 
 			    no edge connecting them. In the input graph you
-			    can assume a value for D[i,j] = ­1 if there is no 
-			    edge directly connecting cities/nodes i and
-			    j.</li>
+			    can assume a value for D[i,j] = <em>­1</em> if
+			    there is no edge directly connecting cities/nodes 
+			    i and j.</li>
 			  <li>For all pairs of cities with direct paths, or 
 			    edges between them, then your distance matrix must 
 			    contain a valid value. You can assume MAX_DISTANCE 
@@ -340,8 +339,8 @@
 			    total) for each starting node and compute all
 			    paths from that starting point to all other nodes 
 			    and back again to the starting point.</li>
-			  <li>The output of "tsp_p" is a list of paths along 
-			    with overall distance. </li>
+			  <li>The output of <em>tsp_p</em> is a list of paths
+			  along with overall distance </li>
 			  <li>A path is defined as an ordered sequence of
 			    nodes, from a starting point S visiting all other 
 			    nodes exactly once and then returning back to
@@ -391,7 +390,7 @@
 			<p>Problem: The problem to be addressed is the same 
 			  as in "tsp_p", except you will use multiple
 			  threads to calculate paths through a graph instead 
-			  of separate child processes. Your multi­threaded 
+			  of separate child processes. Your multithreaded 
 			  program should be called "tsp_t".</p>
 
 			<h4>The Big Picture of the Multi-threaded traveling
@@ -407,11 +406,10 @@
 			  <li>To create threads, you cannot use any supporting 
 			    libraries for thread creation. Instead, you must 
 			    write a function called my_thr_create(), as 
-			    follows:</li>
-			  <p>void my_thr_create(void (*func) (int), int
-			  thr_id);</p>
+			    follows: <em>void my_thr_create(void (*func) (int),
+			    int thr_id);</em></li>
 
-			  <p>The first argument is a pointer to a function for 
+			  <li>The first argument is a pointer to a function for 
 			    the thread to execute, while the second argument 
 			    is a unique integer thread ID that you create for 
 			    each new thread. NOTE: To establish the concept of 
@@ -421,12 +419,12 @@
 			    save/restore each thread's state, or you can use 
 			    (sig)setjmp/(sig)longjmp/sigaltstack to implement
 			    the functionality of the context handling 
-			    functions.</p>
-			  <p>A solution that avoids the use of 
+			    functions.</li>
+			  <li>A solution that avoids the use of 
 			    set/swapcontext/etc functions is considered a
-			    better solution.</p>
+			    better solution.</li>
 
-			  <li>Since the main thread and all sub­threads share 
+			  <li>Since the main thread and all subthreads share 
 			    the process memory space, there is no need to use 
 			    separate shared memory to store all discovered 
 			    paths. </li>
@@ -443,9 +441,6 @@
 			  better solution.</li>
 			</ol>
 			
-		</div>
-		<div id="footer">
-			<p>9 Shannon Marie Way, North Easton, MA 02356 | Tel: (508) 844-9776</p>
 		</div>
 	</body>
 </html>
