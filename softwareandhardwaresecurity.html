@@ -17,10 +17,9 @@
 			<a href="mailto:KarenWest15@gmail.com"><p id="email">KarenWest15@gmail.com</p></a>
 			<p id="name">UNDER CONSTRUCTION WEB SITE,Links that 
 			  work so far:Resume, Linked In, Git Hub, Cshell, 
-			  Android Apps, Embedded Systems (this page not yet 
-			  completed), Software and Hardware Security (not
-			  formatted completely yet) along with the links on
-			  these pages themselves.</p>
+			  Android Apps, Software and Hardware Security, 
+			  Embedded Systems (this page not yet completed), 
+			  along with the links on these pages themselves.</p>
 	        
 	        <ul></ul>
             <!--<a href="https://github.com/KarenWest/myFilesForWebSite/KarenShayWest_4pageResumeCV_June2016.pdf">Link
@@ -75,20 +74,177 @@
 		</div>
 
 		<div class="swhwsecright">
-		  <p>Topics and Projects Covered in Software Security: 
-1. Memory Security: layout, memory-based attacks, stack smashing, buffer overflow, code injection, format string vulnerabilities and attacks, stale memory access attacks.
-2. Memory and Type Safety Languages: immune from memory based attacks, Defenses: stack canaries, data execution protection (DEP), address space layout randomization (ASLR), undertstand how attacks based on return-oriented-programming (ROP) work, understand the concept of control-flow Integrity (CFI) and how it can defeat ROP-based attacks.
-3. Web: HTTP (hypertext transfer protocol), HTML (hypertext markup language), SQL (standard query language), Javascript programming language: vulnerabilities: exploitation, defense: SQL injection attacks, web session state, using cookies and hidden form fields, Session hijacking, Cross-site Request Forgery (CSRF) attacks, browser-executed Javascript programs exploits leading to Cross-site Scripting (XSS) vulnerabilities. Avoid flaws and bugs that introduce these vulnerabilities with input validation and sanitization.
-4. Flaws and bugs - Secure design, threat modeling (Architectural risk analysis), security requirements, avoiding flaws with principles, like favor simplicity, trust with reluctance, and defend in depth, monitoring/traceability, real-world examples of good and bad designs.
-5. Testing and validation phases: automated tools assist developers, testers in finding important security bugs- 2 technologies: static analysis (SA) (including flow analysis with and without adding sensitivity, and context sensitve analysisand symbolic execution (SE) as search and the rise of solvers, the basics and their precision and scalabiltiy.  SE is often used as the core of a penetration testing technology called white box fuzz testing.
-6. Penetration testing: tools using these technologies and their techniques. Focus: whitebox fuzz testing, a technique that attempts to find potentially security-relevant software failures.
-Topics Covered in Hardware Security:
-1. Digital System Design: Basics and Vulnerabilities: understand how digital system is specified, implemented, and optimized; learn what are sequential systems and how they are designed, identify the don't care conditions introduced during the design process; know that there exist security and trust vulnerabilities in hardware
-2. Intellectual Property Protection: self-protection techniques for design IPs: watermarking, fingerprinting, metering assess the trade-off among security, cost and performance
-3. Physical Attacks and Modular Exponentiation: understand the vulnerability to a system from hardware (physical attacks) learn the available countermeasures to physical attacks perform security evaluation for the hardware implementation of security modules modular exponentiation in cryptography, various ways to evaluate it and the security vulnerability, Montgomery Reduction.
-4. Side Channel Attacks(SCA) vulnerabilities and information leaks: study in-depth the following SCAs: cache attacks, power analysis, timing attacks, scan chain attacks. Learn countermeasures from software, hardware, and algorithm design.  Implement security primitives such as RSA securely, Modified Modular Exponentiation.  System engineering approach of building secure systems in all phases of the design.
-5. Hardware Trojan: (additions or modifications of the circuit with malicious purposes) and trusted integrated circuit (IC) design(does exactly what it is asked for, no less and no malicious more). Hardware Trojan taxonomies based on different criteria, how hardware Trojans work, approaches to detect.  Illustrate by design space analysis,  hardware Trojan prevention to build trust in ICs.
-6. Emerging Hardware Security Topics: trust platform module (TPM), physical unclonable function (PUF) and a RO Reliability PUF, FPGA Implementation of Crypto,Vulnerabilities and Countermeasures, Role of Hardware in Security and Trust.</p>
+		  <h4>Topics and Projects Covered in Software Security</h4>
+		  <ol>
+		    <li><em><bold>Memory Security : </bold></em>
+		      <ul>
+			<li>layout</li>
+			<li>memory-based attacks</li>
+			<li>stack smashing</li>
+			<li>buffer overflow</li>
+			<li>code injection</li>
+			<li>format string vulnerabilities and attacks</li>
+			<li>stale memory access attacks</li>
+		      </ul>
+		    </li>
+		    <li><em><bold>Memory and Type Safety Languages</bold></em>
+		      <ul> 
+			<li>immune from memory based attacks</li>
+			<li>Defenses : </li> 
+			<ul>
+			  <li>stack canaries</li>
+			  <li>data execution protection (DEP)</li>
+			  <li>address space layout randomization (ASLR)</li>
+			</ul>
+			<li>undertstand how attacks based on return-oriented-programming (ROP) work</li>
+			<li>understand the concept of control-flow Integrity
+			    (CFI) and how it can defeat ROP-based
+			    attacks.</li>
+		      </ul>
+		    </li>
+		    <li><em><bold>Web : </bold></em>
+		      <ul>
+			<li>HTTP (hypertext transfer protocol)</li>
+			<li>HTML (hypertext markup language)</li>
+			<li>SQL (standard query language)</li>
+			<li>Javascript programming language</li>
+			<li>vulnerabilities, exploitation, defenses :
+			  <ul>
+			    <li>SQL injection attacks</li>
+			    <li>web session state</li>
+			    <li>using cookies and hidden form fields</li>
+			    <li>Session hijacking</li>
+			    <li>Cross-site Request Forgery (CSRF) attacks</li>
+			    <li>browser-executed Javascript programs exploits
+			      leading to Cross-site Scripting (XSS) vulnerabilities. Avoid flaws and bugs that
+			      introduce these vulnerabilities with input validation and sanitization</li>
+			  </ul>
+			</li>
+		      </ul>
+
+		    </li>
+
+		    <li><em><bold>Flaws and bugs</bold></em>
+		      <ul>
+			<li>Secure design</li>
+			<li>threat modeling (Architectural risk analysis)</li>
+			<li>security requirements</li>
+			<li>avoiding flaws with principles : 
+			  <ul>
+			    <li>like favor simplicity</li>
+			    <li>trust with reluctance</li>
+			    <li>defend in depth</li>
+			    <li>monitoring/traceability</li>
+			    <li>real-world examples of good and bad designs</li>
+			  </ul>
+		      </ul>
+		    </li>
+
+		    <li><em><bold>Testing and validation phases : </bold></em> 
+		      <ul>
+			<li>automated tools assist developers, testers in
+			  finding important security bugs--2 technologies--:
+			  <ul>
+			    <li>static analysis (SA) including flow analysis 
+			      with and without adding sensitivity</li>
+			    <li>and context sensitve analysis and symbolic
+				  execution (SE) as search</li>
+			    <li>and the rise of solvers, the basics and their precision and scalabiltiy</li>
+			    <li>SE is often used as the core of a
+			      penetration testing technology called white
+			      box fuzz testing.</li>
+			  </ul>
+		      </ul>
+		    </li>
+
+		    <li><em><bold>Penetration testing : </bold></em> 
+		      <ul>
+			<li>tools using these technologies and their techniques</li>
+			<li>Focus: whitebox fuzz testing, a technique that
+			  attempts to find potentially security-relevant
+			  software failures.</li>
+		      </ul>
+		    </li>
+		  </ol>
+
+		  <h4>Topics Covered in Hardware Security:</h4>
+		  <ol>
+		    <li><em><bold>Digital System Design: Basics and Vulnerabilities: </bold></em>
+		      <ul>
+			<li>understand how digital system is specified,
+			  implemented, and optimized</li>
+			<li>learn what are sequential systems and how they are
+			  designed</li>
+			<li>identify the don't care conditions introduced
+			  during the design process</li>
+			<li>know that there exist security and trust
+			vulnerabilities in hardware</li>
+		      </ul>
+		    </li>
+
+		    <li><em><bold>Intellectual Property Protection: self-protection
+		      techniques for design IPs : </bold></em>
+		      <ul>
+			<li>watermarking</li>
+			<li>fingerprinting</li>
+			<li>metering, assess the trade-off among security,
+			cost and performance</li>
+		      </ul>
+		    </li>
+		    <li><em><bold>Physical Attacks and Modular Exponentiation :</bold></em>
+		      <ul>
+			<li>understand the vulnerability to a system from hardware (physical attacks)</li>
+			<li>learn the available countermeasures to physical attacks</li>
+			<li>perform security evaluation for the hardware</li>
+			<li>implementation of security modules</li>
+			<li>modular exponentiation in cryptography, various
+			  ways to evaluate it and the security
+			  vulnerability</li>
+			<li>Montgomery Reduction</li>
+		      </ul>
+		    </li>
+
+		    <li><em><bold>Side Channel Attacks(SCA) vulnerabilities and
+		      information leaks : </bold></em>
+		      <ul>
+			<li>study in-depth the following SCAs : 
+			  <ul>
+			    <li>cache attacks</li>
+			    <li>power analysis</li>
+			    <li>timing attacks</li>
+			    <li>scan chain attacks</li>
+			  </ul>
+			<li>Learn countermeasures from software, hardware, and algorithm design.</li>
+			<li>Implement security primitives such as RSA security, Modified Modular Exponentiation.</li>
+			<li>System engineering approach of building secure systems in all phases of the design.</li>
+		      </ul>
+		    </li>
+
+		    <li><em><bold>Hardware Trojan: (additions or modifications of the
+		      circuit with malicious purposes) </bold></em>
+		      <ul>
+			<li>trusted integrated circuit (IC) design (does
+			  exactly what it is asked for, no less and no
+			  malicious more)</li> 
+			<li>Hardware Trojan taxonomies based on different
+			  criteria</li>
+			<li>how hardware Trojans work</li>
+			<li>approaches to detect hardware trojans</li>
+			<li>Illustrate by design space analysis</li>
+			<li>hardware trojan prevention to build trust in
+			ICs</li>
+		      </ul>
+		    </li>
+		    <li><em><bold>Emerging Hardware Security Topics : </bold></em>
+		      <ul>
+			<li>trust platform module (TPM)</li>
+			<li>physical unclonable function (PUF) and a RO
+			  Reliability PUF</li>
+			<li>FPGA Implementation of Crypto</li>
+			<li>Vulnerabilities and Countermeasures</li>
+			<li>Role of Hardware in Security and Trust.</li>
+		      </ul>
+		    </li>
            </div>
 	</body>
 </html>
