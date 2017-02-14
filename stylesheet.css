@@ -213,6 +213,75 @@ a:hover {
 	color: #000000;
 
 }
+.rdataanalleft {
+	float: left;
+	#width: 160px;
+	margin: 0px auto;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FF66CC;
+	position: relative;
+	margin-top: 320px;
+	height: 4000px;
+	background-color: #B9D7D9;
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+.rdataanalleft ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+.rdataanalleft li {
+}
+
+.rdataanalleft a {
+	display: block;
+	#width: 160px;
+	width: 100%;
+	padding: 15px 0px;
+	background-color: #9932CC;
+#	background-color: #B9D7D9;
+	border-top: 1px solid #323B2E;
+#	border-bottom: 1px solid #323B2E;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.rdataanalleft a:hover {
+	background-color: #AFB3A5;
+	border-top: 1px solid #555E4F;
+#	border-bottom: 1px solid #555E4F;
+}
+
+.rdataanalright {
+	position: relative;
+	float: right;
+	margin-top: 320px;
+	width: 70%;
+	height: 4000px;
+	#height: 400px;
+	background-color: #F4EBC3;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.rdataanalright p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: Garamond, serif;
+	color: #000000;
+
+}
 
 .androidleft {
 	float: left;
