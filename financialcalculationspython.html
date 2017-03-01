@@ -38,7 +38,7 @@
             <a href="https://github.com/KarenWest"><p id="email">Click to go to my Git Hub site!</p></a>
 
 		</div>
-		<div class="rdataanalleft">
+		<div class="appliedpythonleft">
 		  <ul>
 		    <li id="left-01"><a href="indexactualpage.html">BELOW: List of Recent
 		    Learning - CLICK HERE to Go To My Home Page Resume</a></li>
@@ -78,120 +78,59 @@
 		  </ul>
 		</div>
 
-		<div class="rdataanalright">
-		  <h4>R Language for Data Analysis</h4>
-		<a href="https://github.com/KarenWest/FundamentalsOfDataAnalysisInLanguageR">Link to
-		R and Data Analysis class files</a>
-		<ul></ul>
+		<div class="appliedpythonright">
+		  <br><h4>Financial Calculations Demonstrating the Various
+		  Speeds of Paying Off Debt:</h4><br>
+		  <a href="https://github.com/KarenWest/PythonProject_PayingOffCredtDebtVariousWaysAndSpeeds">Link to
+		Financial Calculations Demonstrating the Various Speeds of
+		Paying Off Debt Using Python,  class files</a><br>
 
-		  <p>In a world that’s full of data, we have many
-		  questions. Luckily, all this data can also help us answer
-		  those questions. This course walked through the basics of
-		  statistical thinking and taught the correct statistical tool
-		  to help answer our questions of interest.  The goal was to
-		  assist us in learning how to interpret data findings and
-		  develop meaningful conclusions.</p>
-
-		  <p>Topics:</p>
+		  <br><p><em><strong> We first used the formula:</strong></em></p><br>
 		  <ul>
-		    <li><em>Introduction to Data</em>
-		      <ul>
-			<li>Why study statistics?</li>
-			<li>Variables and data</li>
-			<li>Getting to know R and RStudio</li>
-			</ul>
-		    </li>
-		    <ul></ul>
-
-		    <li><em>Univariate Descriptive Statistics</em>
-		      <ul>
-			<li>Graphs and distribution shapes</li>
-			<li>Measures of center and spread</li>
-			<li>The Normal distribution, Z-scores</li>
-			</ul>
-		    </li>
-		    <ul></ul>
-
-		    <li><em>Bivariate Distributions</em>
-		      <ul>
-			<li>The scatterplot</li>
-			<li>Correlation</li>
-		      </ul>
-		    </li>
-		    <ul></ul>
-
-		    <li><em>Bivariate Distributions(Categorical Data)</em>
-		      <ul>
-			<li>Contingency tables</li>
-			<li>Conditional probability</li>
-			<li>Examining independence</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Linear Functions</em>
-		      <ul>
-			<li>What is a function?</li>
-			<li>Least squares</li>
-			<li>The Linear function – regression</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Exponential and Logistic Function Models</em>
-		      <ul>
-			<li>Exponential data</li>
-			<li>Logs</li>
-			<li>The Logistic function model</li>
-			<li>Picking a good model</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Sampling</em>
-		      <ul>
-			<li>The sampling distribution</li>
-			<li>Central limit theorem</li>
-			<li>Confidence intervals</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Hypothesis Testing (One Group Means)</em>
-		      <ul>
-			<li>What makes a hypothesis test</li>
-			<li>Errors in testing</li>
-			<li>Alpha and critical values</li>
-			<li>Single sample test</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Hypothesis Testing (Two Group Means)</em>
-		      <ul>
-			<li>Independent t-test</li>
-			<li>Dependent t-test</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Hypothesis Testing (Categorical Data)</em>
-		      <ul>
-			<li>The chi-square test</li>
-			<li>Goodness-of-Fit</li>
-			<li>Test-of-Independence</li>
-		      </ul>
-		    </li>
-
-		    <ul></ul>
-		    <li><em>Hypothesis Testing (More Than Two Group Means)</em>
-		      <ul>
-			<li>The ANOVA</li>
-			<li>One-way ANOVA</li>
-		      </ul>
-		    </li>
+		    <li>Any payment you make at beginning of month is deducted
+		      from balance = p0.</li><br>
+		    <li>At beginning of month 1, credit company charges
+		      interest on balance.</li><br>
+		    <li>So if your annual interest rate is r, at the beginning
+		      of month 1,your new balance is your previous balance b0 
+		      less the payment p0 plus interest on the new balance for the
+		      month.  "b1 = (b0-p0) * (1 +r/12)".</li><br>
+		    <li>In month 1, we make another payment p1 to cover
+		      interest costs too, thus at beginning of month 2,
+		      balance is: "b2 = (b1-p1) * (1 + r/12)".</li><br>  
+		    <li><em><strong>We saw that if you choose to pay off the minimum
+		      monthly payment each month, compound interest
+		      dramatically reduces your ability to lower your
+		      debt.</strong></em></li><br>
 		  </ul>
+		  
+		  <br><p><em><strong>Next, we calculated the minimum fixed monthly payment
+		      needed in order to pay off a credit card balance within
+		      12 months.</strong></em></p><br>
+		  <ul>
+		    <li>So in this part, we are not dealing with a
+		      minimum monthly payment rate.</li><br>
+		    <li>We computed the lowest monthly payment that would pay
+		      off the debt in under 1 year.</li><br>
+		    <li>We assumed interest was compounded monthly
+		      according to the balance at the end of the month after
+		      payment was made.</li><br>
+		    <li>Monthly Interest Rate = "Annual Interest Rate / 12" .</li><br>
+		    <li>Updated balance each month = "(Previous balance - Minimum monthly payment) * (1 +
+		      Monthly Interest Rate)".</li><br>
+		  </ul>
+		  
+		  <br><p><em><strong>We then used bisection search to make our program
+		      faster.</strong></em></p><br>
+		    <ul>
+		      <li>Lower bound = 1/12th of original balance.</li><br>
+		      <li>Upper bound = 1/12th of the balance</li><br>
+		      <li>After it has been compounded monthly for an entire year
+			= "(Balance * (1 + Monthly interest rate) ** 12) / 12".</li><br>
+		      <li><em><strong>You should get the same answer as you did for part 2 in
+			this part 3 only faster with bisection search.</strong></em></li><br>
+		    </ul>
 
-           </div>
+		</div>
 	</body>
 </html>
