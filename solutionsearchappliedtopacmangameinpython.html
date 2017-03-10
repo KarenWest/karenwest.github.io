@@ -82,26 +82,55 @@
 
 		<div class="appliedpythonright">
 
-		  <br><h4>Python Class Early Examples and Solutions to
-		  Famous Problems: Multiple Files in the link that Follows
-		  that describe those: Page Still Under Construction and
-		  Eventually There will be separate links for each example.</h4><br>
+		  <br><h4>Python Project: Solution Search applied to Pacman
+		  game: </h4><br>
 
-		  <a href="https://github.com/KarenWest/pythonClassProjects">Links
-		    to Python Class Examples: Start of Course Python Tricks
-		    for famous problems:
-			Iteration, Cube Roots, Binary to Decimal, Bisection
-			Search, Newton Raphson Method, Square Roots, Iterative
-			Power, X to the Power N, Understanding Root Finding,
-			Area and Circumference of a Circle, Recursive verses 
-			Iterative Algorithms, Fibonacci, Factorial,
-			Palindrome, Multiply, Towesr of Hanoi, Functions as
-			Parameters, Common Divisors, Duplicate Removal Lists,
-			Lists of Lists, List Reversal, Is It a Palimdrome?, 
-			String to Int, Hash string, Dictionary with Int Keys
-		  </a><br>
+		  <ul>
+		    <li>We implemented breadth first search (BFS) using a FIFO data 
+		      structure to explore graph paths, depth first search (DFS)
+		      using a stack data structure for exploring graph paths, 
+		      uniform cost search and a star search, using priority 
+		      queues to explore graph paths and had to compare the
+		      results.</li><br>
+		    <li>We ran the algorithms on different sized mazes for
+			Pacman to explore and made cost comparisons.</li><br>
+		    <li>With a varying cost function, Pacman may choose
+		      different paths.</li><br>
+		    <li>We explored charging more for for more dangerous steps 
+		      in a ghost-ridden environment and charging less in 
+		      food rich areas.</li><br>
+		    <li>A rational Pacman agent would adjust his behavior in
+		    response to the cost comparison of the path
+		    taken.</li><br>
+		    <li>Each search algorithm is similar except in how they
+		      manage the fringe of path exploration (data structures 
+		      mentioned above).</li><br>
+		    <li>BFS expands outward in every direction, but is
+		    not sensitive to exploration cost.</li><br>
+		    <li>Uniform Cost Search is similar to BFS except that it 
+		      gets farther in the lower cost area than BFS in getting 
+		      to the goal node.</li><br>
+		    <li>It is not as good as A-star search, because it
+		      explores every direction and has no information about 
+		      the goal.</li><br>  
+		    <li>It starts at the top and works systematically down,
+		      finding the cheapest path in terms of cost.</li><br>
+		    <li>DFS goes to the highest depth before going further in 
+		      the search.</li><br>
+		    <li>We did not do greedy search, but that goes straight to 
+		      the solution node and is not optimal, since it goes
+		      through high cost areas to get to the goal.</li><br>
+		    <li>A-star hedges its bets, explores a bit in the wrong 
+		      direction, just to be sure because the heuristic it uses 
+		      is imperfect, but it does a very small amount of work,
+		      not much worse than greedy, and it is optimal.</li><br>
+		    <li>A-star uses backward costs and estimates of forward
+		      costs.  It is optimal with admissible and
+		    consistent heuristics.  Heuristic design is the
+		    key to it, and sometimes it makes sense to use a relaxed
+		    problem, and is what to use in practice.</li><br>
+		  </ul>
 
-		     
 		</div>
 	</body>
 </html>

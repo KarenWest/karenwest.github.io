@@ -82,26 +82,57 @@
 
 		<div class="appliedpythonright">
 
-		  <br><h4>Python Class Early Examples and Solutions to
-		  Famous Problems: Multiple Files in the link that Follows
-		  that describe those: Page Still Under Construction and
-		  Eventually There will be separate links for each example.</h4><br>
+		  <br><h4>Python Project: Markov Decision Processes: policies, rewards and
+			values, value iteration and Reinforcement Learning: 
+			TD/Q Learning, Exploration and Approximation
+			Reinforcement Learning Project: </h4><br>
 
-		  <a href="https://github.com/KarenWest/pythonClassProjects">Links
-		    to Python Class Examples: Start of Course Python Tricks
-		    for famous problems:
-			Iteration, Cube Roots, Binary to Decimal, Bisection
-			Search, Newton Raphson Method, Square Roots, Iterative
-			Power, X to the Power N, Understanding Root Finding,
-			Area and Circumference of a Circle, Recursive verses 
-			Iterative Algorithms, Fibonacci, Factorial,
-			Palindrome, Multiply, Towesr of Hanoi, Functions as
-			Parameters, Common Divisors, Duplicate Removal Lists,
-			Lists of Lists, List Reversal, Is It a Palimdrome?, 
-			String to Int, Hash string, Dictionary with Int Keys
-		  </a><br>
+		  <ul>
+		    <li>We implemented Value Iteration and Q-learning, and
+		      tested our agents first on GridWorld and later to a 
+		      simulated robot controller (Crawler) Pacman.</li><br>
+		    <li>Reinforcement learning: an agent that takes actions 
+		      on an environment, and the output state and reward from 
+		      the action are passed back to the agent that took the
+		      action.</li><br>
+		    <li>It is a Markov decision process,
+		      non-determininsitic.</li><br>
+		    <li>You have a set of states with a set of associated
+		      actions, and a transition function, a probability of one 
+		      of the successor outcomes, a model of the dynamics,
+		      along  with the reward of the associated
+		      transition.</li><br>
+		    <li>Markov means that given the present state, the future
+		      and past are independent.</li><br>
+		    <li>For decision processes, Markov means action outcomes
+		      depend only on the current state, just like search,
+		      where the successor function could only depend on the 
+		      current state and not its history.</li><br>
+		    <li>Deterministic single agent search problems: wanted an 
+		      optimal plan, or sequence of actions, start to
+		      goal.</li><br>
+		    <li>For Markov Decision processes, we want an optimal
+		      policy for each state.</li><br>
+		    <li>The idea was to create a Pacman that could learn from
+		      his environment.</li><br>
+		    <li>Once Pacman was done training, he should win very 
+		      reliably in test games, since now he is exploiting his 
+		      learned policy.</li><br>
+		    <li>This worked for small but not medium grids.</li><br>
+		    <li>To correct this, we had to implement a q learning
+		      agent that learns weights for features of states, where 
+		      many states might share the same features.</li><br>
+		    <li>Approximate q learning assumes the existence of a 
+		      feature function over state and action pairs.</li><br>
+		    <li>Approximate-q-agent uses the an extractor to assign a 
+		      single feature to every (game state,action)
+		      pair.</li><br>
+		    <li>Even much larger layouts should be no problem for 
+		      approximate-q-learning agent.</li><br>
+		    <li>We then had a learning Pacman agent for small, medium
+		      or large grids.</li><br>
 
-		     
+		  </ul>
 		</div>
 	</body>
 </html>

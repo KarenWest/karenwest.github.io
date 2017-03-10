@@ -82,26 +82,81 @@
 
 		<div class="appliedpythonright">
 
-		  <br><h4>Python Class Early Examples and Solutions to
-		  Famous Problems: Multiple Files in the link that Follows
-		  that describe those: Page Still Under Construction and
-		  Eventually There will be separate links for each example.</h4><br>
+		  <br><h4>Python Project: Stochastic
+		      Simulation of Patient Virus Population Dynamics And
+		      Treatment Regimens: Effect of Delaying Drugs, Using 2
+		      Drugs, and Patient non-compliance</h4><br>
 
-		  <a href="https://github.com/KarenWest/pythonClassProjects">Links
-		    to Python Class Examples: Start of Course Python Tricks
-		    for famous problems:
-			Iteration, Cube Roots, Binary to Decimal, Bisection
-			Search, Newton Raphson Method, Square Roots, Iterative
-			Power, X to the Power N, Understanding Root Finding,
-			Area and Circumference of a Circle, Recursive verses 
-			Iterative Algorithms, Fibonacci, Factorial,
-			Palindrome, Multiply, Towesr of Hanoi, Functions as
-			Parameters, Common Divisors, Duplicate Removal Lists,
-			Lists of Lists, List Reversal, Is It a Palimdrome?, 
-			String to Int, Hash string, Dictionary with Int Keys
-		  </a><br>
+		  <a href="https://github.com/KarenWest/PythonPylabProject_StochasticSimulationPatientVirusPopulationDynamics_WithOrWithoutDrugs_Resistances">Links
+			to Python Project: Stochastic Simulation of Patient
+			Virus Population Dynamics: Effect of Delaying Drug 
+		    Treatment on Patient Disease, Using 2 Drugs, and Patient 
+		    non-Compliance  </a><br>
 
-		     
+		  <ul>
+		    <li>Stochastic Simulation of Patient Virus Population 
+		      Dynamics: Effect of Delaying Drug Treatment on Patient 
+		      Disease, Using 2 Drugs, Patient non-Compliance</li><br>
+
+		    <li>We used the classes implemented in the previous
+		    similar problem set in this project list (ResistantVirus, 
+		      TreatedPatient).</li><br>
+
+		    <li>In this problem set, we examined the effect of 
+		      delaying treatment on the ability of the drug to 
+		      eradicate the virus population.</li><br>
+
+		    <li>We needed multiple simulations to observe trends in 
+		      the distributions of patient outcomes.</li><br>
+
+		    <li>In the last part of the previous similar problem set, 
+		      we ran a simulation that consisted of 150 time steps 
+		      before adding drug guttagonol, followed by another 150 
+		      time steps.</li><br>
+
+		    <li>Here we run the same simulation but this time for 300, 
+		      150, 75 and 0 time steps before adding guttagonol to the 
+		      patient, and then ran another 150 time steps.</li><br>
+
+		    <li>We used the same init params as problem set 8 (refer 
+		      to that description).</li><br>
+
+		    <li>For each case, we repeated the experiment for enough 
+		      trials to gain reasonable insight into the expected 
+		      result.</li><br>
+
+		    <li>Rather than averaging the final virus population 
+		      across different trials as in the previous problem set, 
+		      we used pylab's hist() function to plot a histogram of 
+		      the final virus populations under each case for each 
+		      trial.</li><br>
+
+		    <li>The x-axis of the histogram was the final virus 
+		      population values, and the y-axis the number of trials 
+		      belonging to each histogram bin.</li><br>
+
+		    <li>We had to justify the number of trials we ran for each 
+		      case in order to obtain a reasonable
+		      distribution.</li><br>
+		    
+		    <li>We filled in the function simulationDelayedTreatment
+		      (numTrials) to perform this simulation.  With a delay of 
+		      300 and 150 cases, "0-5%" were cured, for 75, "6-15%", 
+		      for 0, "86-100%", so the earlier the drug was applied 
+		      the more likely for this virus it was to be
+		      cured.</li><br>
+
+		    <li>We then examined these same things with 2 drugs and 
+		      found it cured the patient more quickly when
+		      administered early for this virus.</li><br>
+
+		    <li>We also discussed how to model a patient that refuses 
+		      to take medication.  You make a TreatedPatient class 
+		      that stochastically does not take its medication, and 
+		      ir predicted less patients would be cured.</li><br>
+
+		  </ul>
+
 		</div>
 	</body>
 </html>
