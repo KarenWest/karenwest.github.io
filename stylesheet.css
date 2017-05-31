@@ -1295,141 +1295,17 @@ th {
 @media only screen and (max-width: 480px) , (orientation: portrait){
     #header {
   	max-width: 480px;
+	max-height: 250em;
     }
 
-    #name {
-	margin-left: 15em;
-	padding-top: 15em;
-	font-size: 20em;
-    }
-
-    #notice {
-	margin-left: 5em;
-	font-size: 20em;
-	font-family: Verdana, sans-serif;
-	color: black;
-    }
-
-    #email{
-	margin-right: 5em;
-	padding-top: 5em;
-	font-size: 20em;
-    }
-
-    #toprightresume {
-	position: absolute;
-	top: 8em;
-	right: 16em;
-	font-size: 20em;
-    }
-
-    #toprightlinkedin {
-	position: absolute;
-	top: 28em;
-	right: 16em;
-	font-size: 20em;
-    }
-
-    #toprightgithub {
-	position: absolute;
-	top: 48em;
-	right: 16em;
-	font-size: 20em;
-    }
-
-    #photo img {
-	float: left;
-	margin: 20em 0 0 20em;
-	width: 85em;
-	height: 85em;
-	min-width: 85em;
-	min-height: 85em;
-	max-height: 85em;
-	max-width: 85em;
-    }
-
-    #sitevisitorcounter img {
-	position: absolute;
-	top: 68em;
-	right: 950em;   
-    }
-
-    #centertopcounter {
-	position: absolute;
-	top: 8em;
-	right: 750em;
-	font-size: 20em;
-    }
 }
 
 #mobile device screen size range <= 480px in landscape mode:
 @media only screen and (max-width: 480px) , (orientation: landscape){
     #header {
   	max-width: 480px;
+	max-height: 250em;
     }
 
-    #name {
-	margin-left: 15em;
-	padding-top: 15em;
-	font-size: 20em;
-    }
-
-    #notice {
-	margin-left: 5em;
-	font-size: 20em;
-	font-family: Verdana, sans-serif;
-	color: black;
-    }
-
-    #email{
-	margin-right: 5em;
-	padding-top: 5em;
-	font-size: 20em;
-    }
-
-    #toprightresume {
-	position: absolute;
-	top: 8em;
-	right: 16em;
-	font-size: 20em;
-    }
-
-    #toprightlinkedin {
-	position: absolute;
-	top: 28em;
-	right: 16em;
-	font-size: 20em;
-    }
-
-    #toprightgithub {
-	position: absolute;
-	top: 48em;
-	right: 16em;
-	font-size: 20em;
-    }
-
-    #photo img {
-	float: left;
-	margin: 20em 0 0 20em;
-	width: 85em;
-	height: 85em;
-	min-width: 85em;
-	min-height: 85em;
-	max-height: 85em;
-	max-width: 85em;
-    }
-
-    #sitevisitorcounter img {
-	position: absolute;
-	top: 68em;
-	right: 950em;   
-    }
-
-    #centertopcounter {
-	position: absolute;
-	top: 8em;
-	right: 750em;
-	font-size: 20em;
-    }
 }
 
