@@ -5,7 +5,7 @@ div {
 #header {
 	z-index: 1;
 	position: relative;
-	width: 100%%;
+	width: 100%;
 	margin-top: -20px;
 	height: 250px;
 	background-color: #668284;
@@ -857,5 +857,579 @@ th {
 	font-size: 1em;
 	font-weight: normal;
 	color: #3c4543
+}
+
+#tablet screen size range 768px to 1024px width in landscape mode:
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #header {
+ 	min-width: 768px; 
+  	max-width: 1024px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#tablet screen size range 768px to 1024px width in portrait mode:
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    #header {
+ 	min-width: 768px; 
+  	max-width: 1024px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#lap top screen size range 1024px to 1600px width in landscape mode:
+@media only screen and (min-width: 1024px) and (max-width: 1600px) and (orientation: landscape) {
+    #header {
+ 	min-width: 1024px; 
+  	max-width: 1600px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#lap top screen size range 1024px to 1600px width in portrait mode:
+@media only screen and (min-width: 1024px) and (max-width: 1600px) and (orientation: portrait) {
+    #header {
+ 	min-width: 1024px; 
+  	max-width: 1600px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#desk top screen size range 1600px to 2000px width in landscape mode:
+@media only screen and (min-width: 1600px) and (max-width: 2000px) and (orientation: landscape) {
+    #header {
+ 	min-width: 1600px; 
+  	max-width: 2000px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#desk top screen size range 1600px to 2000px width in portrait mode:
+@media only screen and (min-width: 1600px) and (max-width: 2000px) and (orientation: portrait) {
+    #header {
+ 	min-width: 1600px; 
+  	max-width: 2000px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#mobile device screen size range <= 480px in portrait mode:
+@media only screen and (max-width: 480px) , (orientation: portrait){
+    #header {
+  	max-width: 480px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
+}
+
+#mobile device screen size range <= 480px in landscape mode:
+@media only screen and (max-width: 480px) , (orientation: landscape){
+    #header {
+  	max-width: 480px;
+    }
+
+    #name {
+	margin-left: 15em;
+	padding-top: 15em;
+	font-size: 20em;
+    }
+
+    #notice {
+	margin-left: 5em;
+	font-size: 20em;
+	font-family: Verdana, sans-serif;
+	color: black;
+    }
+
+    #email{
+	margin-right: 5em;
+	padding-top: 5em;
+	font-size: 20em;
+    }
+
+    #toprightresume {
+	position: absolute;
+	top: 8em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightlinkedin {
+	position: absolute;
+	top: 28em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #toprightgithub {
+	position: absolute;
+	top: 48em;
+	right: 16em;
+	font-size: 20em;
+    }
+
+    #photo img {
+	float: left;
+	margin: 20em 0 0 20em;
+	width: 85em;
+	height: 85em;
+	min-width: 85em;
+	min-height: 85em;
+	max-height: 85em;
+	max-width: 85em;
+    }
+
+    #sitevisitorcounter img {
+	position: absolute;
+	top: 68em;
+	right: 950em;   
+    }
+
+    #centertopcounter {
+	position: absolute;
+	top: 8em;
+	right: 750em;
+	font-size: 20em;
+    }
 }
 
