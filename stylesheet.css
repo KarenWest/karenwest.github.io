@@ -1,91 +1,91 @@
 div {
-	border-radius: 0.33em;
+	border-radius: 0.33rem;
 }
 
 #header {
 	z-index: 1;
 	position: relative;
 	width: 100%;
-	margin-top: -1.25em;
-	height: 15.626em;
+	margin-top: -1.25rem;
+	height: 15.626rem;
 	background-color: #668284;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 }
 
 #header a {
-        font-size: 1em;
+        font-size: 1rem;
 	font-family: Verdana, serif;
 	color: #000000;
 }
 
 #name {
-	margin-left: 1em;
-	padding-top: 1em;
-	font-size: 1.25em;
+	margin-left: 1rem;
+	padding-top: 1rem;
+	font-size: 1.25rem;
 	font-family: Verdana, sans-serif;
 	color: black;
 }
 
 #notice {
 	#float:left;
-	margin-left: 0.3125em;
-	font-size: 1.25em;
+	margin-left: 0.3125rem;
+	font-size: 1.25rem;
 	font-family: Verdana, sans-serif;
 	color: black;
 }
 
 #email{
-	margin-right: 0.3125em;
-	padding-top: 0.3125em;
-	font-size: 1.25em;
+	margin-right: 0.3125rem;
+	padding-top: 0.3125rem;
+	font-size: 1.25rem;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
 }
 
 #toprightresume {
     position: absolute;
-    top: 0.5em;
-    right: 1em;
-    font-size: 1.25em;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.25rem;
     font-family: Verdana, sans-serif;
     color: #ffffff;
 
 }
 #toprightlinkedin {
     position: absolute;
-    top: 1.75em;
-    right: 1em;
-    font-size: 1.25em;
+    top: 1.75rem;
+    right: 1rem;
+    font-size: 1.25rem;
     font-family: Verdana, sans-serif;
     color: #ffffff;
 }
 #toprightgithub {
     position: absolute;
-    top: 3em;
-    right: 1em;
-    font-size: 1.25em;
+    top: 3rem;
+    right: 1rem;
+    font-size: 1.25rem;
     font-family: Verdana, sans-serif;
     color: #ffffff;
 }
 
 #photo img {
     float: left;
-    margin: 1.25em 0 0 1.25em;
-    width: 80.3125em;
-    height: 80.3125em;
+    margin: 1.25em 0 0 1.25rem;
+    width: 80.3125rem;
+    height: 80.3125rem;
 }
 
 #sitevisitorcounter img {
     position: absolute;
-    top: 4.25em;
-    right: 59.375em;   
+    top: 4.25rem;
+    right: 59.375rem;   
 }
 
 #centertopcounter {
     position: absolute;
-    top: 0.5em;
-    right: 35.875em;
-    font-size: 1.25em;
+    top: 0.5rem;
+    right: 35.875rem;
+    font-size: 1.25rem;
     font-family: Verdana, sans-serif;
     color: #ffffff;
 }
@@ -94,14 +94,14 @@ div {
 	border: #000000 0.0625em solid;
 	background-color: #acd1b2;
 	float: left;
-	margin-left: 0.625em;
-	border-bottom-right-radius: 1em;
-	border-bottom-left-radius: 1em;
+	margin-left: 0.625rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
 }
 
 h4 {
-	margin-left: 0.3125em;
-	margin-bottom: 1em;
+	margin-left: 0.3125rem;
+	margin-bottom: 1rem;
 	font-family: Verdana, sans-serif;
 }
 
@@ -116,43 +116,43 @@ a:hover {
 .left {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 375em;
+	margin-top: 0.3125rem;
+	height: 375rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .right {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 375em;
+	height: 375rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .right p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 }
 
 .left1 ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .left li {
@@ -161,7 +161,7 @@ a:hover {
 .left a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -179,43 +179,43 @@ a:hover {
 .extralongleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 1281.25em;
+	margin-top: 0.3125rem;
+	height: 1281.25rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .extralongright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 1281.25em;
+	height: 1281.25rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .extralongright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 }
 
 .extralongleft1 ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .extralongleft li {
@@ -224,7 +224,7 @@ a:hover {
 .extralongleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -242,23 +242,23 @@ a:hover {
 .cshellleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 250em;
+	margin-top: 0.3125rem;
+	height: 250rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .cshellleft1 ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .cshellleft li {
@@ -267,7 +267,7 @@ a:hover {
 .cshellleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -285,19 +285,19 @@ a:hover {
 .cshellright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 250em;
+	height: 250rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .cshellright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -306,23 +306,23 @@ a:hover {
 .swhwsecleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 250em;
+	margin-top: 0.3125rem;
+	height: 250rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .swhwsecleft ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .swhwsecleft li {
@@ -331,7 +331,7 @@ a:hover {
 .swhwsecleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -349,19 +349,19 @@ a:hover {
 .swhwsecright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 250em;
+	height: 250rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .swhwsecright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -370,23 +370,23 @@ a:hover {
 .wirelessmatlableft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 262.5em;
+	margin-top: 0.3125rem;
+	height: 262.5rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .wirelessmatlableft ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .wirelessmatlableft li {
@@ -395,7 +395,7 @@ a:hover {
 .wirelessmatlableft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -414,20 +414,20 @@ a:hover {
 .wirelessmatlabright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 262.5em;
-	#height: 0.3125em;
+	height: 262.5rem;
+	#height: 0.3125rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .wirelessmatlabright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -436,23 +436,23 @@ a:hover {
 .appliedpythonleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 250em;
+	margin-top: 0.3125rem;
+	height: 250rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .appliedpythonleft ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .appliedpythonleft li {
@@ -461,7 +461,7 @@ a:hover {
 .appliedpythonleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -479,19 +479,19 @@ a:hover {
 .appliedpythonright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 250em;
+	height: 250rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .appliedpythonright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -500,23 +500,23 @@ a:hover {
 .currentlearningleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 250em;
+	margin-top: 0.3125rem;
+	height: 250rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .currentlearningleft ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .currentlearningleft li {
@@ -525,7 +525,7 @@ a:hover {
 .currentlearningleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -543,20 +543,20 @@ a:hover {
 .currentlearningright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 250em;
-	#height: 0.3125em;
+	height: 250rem;
+	#height: 0.3125rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .currentlearningright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -565,23 +565,23 @@ a:hover {
 .rdataanalleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 250em;
+	margin-top: 0.3125rem;
+	height: 250rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .rdataanalleft ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .rdataanalleft li {
@@ -590,7 +590,7 @@ a:hover {
 .rdataanalleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -608,19 +608,19 @@ a:hover {
 .rdataanalright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 250em;
+	height: 250rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .rdataanalright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -629,23 +629,23 @@ a:hover {
 .androidleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 281.25em;
+	margin-top: 0.3125rem;
+	height: 281.25rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .androidleft1 ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .androidleft li {
@@ -654,7 +654,7 @@ a:hover {
 .androidleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -672,19 +672,19 @@ a:hover {
 .androidright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 281.25em;
+	height: 281.25rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .androidright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -693,23 +693,23 @@ a:hover {
 .embeddedleft {
 	float: left;
 	margin: 0em auto;
-	padding-bottom: 1.25em;
+	padding-bottom: 1.25rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	color: #FF66CC;
 	position: relative;
-	margin-top: 0.3125em;
-	height: 968.75em;
+	margin-top: 0.3125rem;
+	height: 968.75rem;
 	background-color: #B9D7D9;
-	margin-bottom: 0.625em;
+	margin-bottom: 0.625rem;
 	width: 30%;
 }
 
 .embeddedleft1 ul {
-	margin: 0em;
+	margin: 0rem;
 	list-style: none;
-	padding: 0em;
+	padding: 0rem;
 }
 
 .embeddedleft li {
@@ -718,7 +718,7 @@ a:hover {
 .embeddedleft a {
 	display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 0rem;
 	background-color: #9932CC;
 	border-top: 0.0625em solid #323B2E;
 	text-align: center;
@@ -736,19 +736,19 @@ a:hover {
 .embeddedright {
 	position: relative;
 	float: right;
-	margin-top: 0.3125em;
+	margin-top: 0.3125rem;
 	width: 70%;
-	height: 968.75em;
+	height: 968.75rem;
 	background-color: #F4EBC3;
-	margin-bottom: 0.625em;
-	font-size: 1.25em;
+	margin-bottom: 0.625rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .embeddedright p {
-	margin-left: 0.3125em;
-	margin-right: 0.3125em;
-	margin-top: -0.625em;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+	margin-top: -0.625rem;
 	font-family: Garamond, serif;
 	color: #000000;
 
@@ -757,45 +757,45 @@ a:hover {
 
 #footer {
 	position: relative;
-	height: 6.25em;
+	height: 6.25rem;
 	background-color: #668284;
 	clear: both;
 	font-family: Verdana, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	font-weight: bold;
 	text-align: center;
 	color: #ffffff;
- 	bottom: -0.625em;
+ 	bottom: -0.625rem;
 }
 
 #footer p {
 	position: relative;
-	padding-top: 1em;
+	padding-top: 1rem;
 }
 
 table {
 	border: #000000 0.0625em solid;
 	background-color: #acd1b2;
 	float: right;
-	margin-right: 0.625em;
-	border-bottom-right-radius: 1em;
-	border-bottom-left-radius: 1em;
+	margin-right: 0.625rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
 }
 
 td {
-	height: 4.6875em;
-	width: 4.6875em;
+	height: 4.6875rem;
+	width: 4.6875rem;
 }
 
 td img {
-	height: 4.6875em;
-	width: 4.6875em;
+	height: 4.6875rem;
+	width: 4.6875rem;
 	box-shadow: none;
 }
 
 th {
 	font-family: Verdana;
-	font-size: 1em;
+	font-size: 1rem;
 	font-weight: normal;
 	color: #3c4543
 }
