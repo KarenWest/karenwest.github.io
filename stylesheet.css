@@ -80,13 +80,13 @@ html {
 #sitevisitorcounter img {
     position: absolute;
     top: 20%;
-    right: 36%;   
+    right: 34%;   
 }
 
 #centertopcounter {
     position: absolute;
     top: 10%;
-    right: 40%;
+    right: 38%;
     font-size: 1.25rem;
     font-family: Verdana, sans-serif;
     color: #ffffff;
