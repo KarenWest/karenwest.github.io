@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+
+  </head>
+  
+  <body>
+    <div class="header">
+      <h1><strong>Karen Shay West's Home Page</strong></h1>
+      <div id="photo"> <a href="KarenShayWestAgeAlmost52Dec2016.jpg"><img alt=""
+            src="KarenShayWestAgeAlmost52Dec2016.jpg" style="border: 0px solid; width: 85px;
+            height: 85px;"></a> </div>
+
+      <ul></ul>
+      <p id="name">Karen Shay West: Tel: (508) 844-9776</p>
+      <a href="mailto:KarenWest15@gmail.com"><p id="email">KarenWest15@gmail.com</p></a>
+      
+      <p id="notice"><strong><br>UNDER CONSTRUCTION WEB SITE</strong></p>
+	        
+      <ul></ul>
+
+    </div>
+
+    <div class="nav">
+      <div class="container">
+	<ul>
+          <li><a href="index.html">LINK TO HOME MAIN PAGE</a></li>
+	  <li><a href="https://drive.google.com/open?id=0B0ao1LZvdelIeWZZVFBKRzBfV0k">LINK
+	  TO RESUME (CV)</a></li>
+	  <li><a href="http://www.linkedin.com/in/karenshaywest">LINK TO LINKEDIN
+	  SITE</a></li>
+	  <li><a href="https://github.com/KarenWest">LINK TO GIT HUB SITE</a></li>
+	</ul>
+      </div>
+    </div>
+
+		<div class="experience">
+			<h4>Future C Shell Work: Code developed in a series of stages:</h4>
+			<ol>
+			  <li>write and test a parser to read the command
+			    lines--this works</li>
+			  <li>get the simple commands to work--this works</li>
+			  <li>get I/O redirection to work--this works</li>
+			  <li>get pipes to work--this works for some cases but
+			    not with 2nd command sent to an output file
+			    instead of stdout</li>
+			  <li>get "&" to work--not implemented yet</li>
+			  <li>Parsing shell strings: in this project, you only 
+			    need to implement a simple command line parser, in 
+			    which we use "space" as the delimiter between 
+			    command "tokens".--this works</li>
+			  <li>You can use support libraries such as the Gnu 
+			    readline library for command line parsing.</li>
+			  <li>A multi-process version of the traveling salesman 
+			    problem, called <em>tsp_p</em>--future work.</li>
+			  <li>A multi-threaded version of the traveling
+			    problem, called <em>tsp_t</em>, with an added
+			    bonus of implementing it without the SYSV context 
+			    functions.  Solutions that bind user level threads 
+			    with kernel threads are also a bonus, and using 
+			    pthreads or any other threads library is not the 
+			    approach to take, and instead, you create your own 
+			    threads.  It was also recommended NOT to rely on 
+			    the Linux clone() call in the thread creation 
+			    solution, if at all.  The solution can bind user 
+			    level threads onto user level threads, but you 
+			    still need to use a different approach for making 
+			    the portable user--level threads--future work.</li>
+			  <li>A sorter program, called <em>tspsort</em>, that
+			  sorts the paths found in the traveling salesman
+			  problem, from shortest path to longest path
+			  distance--future--work.</li>
+			</ol>
+			<h4>Testing Involved In Future Work:</h4>
+			<p>In <em>myshell</em>, run <em>tsp_p < input_graph | tspsort >
+			tsp_p.out”</em>
+
+			<p><em>tsp_p</em> computes all possible paths through a graph 
+			  (G) of vertices (V) and edges (E).</p>
+			<ul>
+			  <li>A path is defined as an ordered list of nodes 
+			    from a starting point, S, visiting all other 
+			    nodes in V exactly once, and then returning back 
+			    to S.</li>
+
+			  <li>a path distance is defined as the sum of all 
+			    edge weights between pairs of nodes in G visited 
+			    along a specific path each path along the route 
+			    with its overall distance will be the output to 
+			    stdout by <em>tsp_p</em> as it is discovered the
+			    result is <em>piped</em> by “myshell” to stdin of
+			    <em>tspsort</em>, which collects all paths and
+			    orders them from shortest to longest distance</li>
+
+			  <li>In <em>myshell</em>, run <em>tsp_t < input_graph | tspsort 
+							 > tsp_t.out</em>, with the same goals with the thread version as above with the process version</li>
+			  </ul>
+
+			<h4>Traveling Salesman Multi-Process Version--Future Work:</h4>
+			<ul>
+			  <li>Problem: The problem to be addressed is a
+			    parallel implementation of the Travelling Salesman 
+			    Problem (TSP) on an input graph, G={V,E},
+			    comprising a set of nodes or vertices, V, and a
+			    set of edges, E. Your main program (called
+			    <em>tsp_p</em>) is to be invoked as follows: 
+			    <em>$ tsp_p</em></li>
+			  <li>It then reads an input graph from stdin. You can 
+			    assume the input graph, G has |V|=n vertices 
+			    representing different cities. </li>
+			  <li>The graph itself can be represented as an n*n 
+			    distance matrix, D,such that D[i,j] is the
+			    distance between city i and city j. </li>
+			  <li>The diagonal of the matrix has distance 0 for 
+			    each D[i,i] . You can assume all distances are in 
+			    integers over some predefined range 
+			    [0..MAX_DISTANCE] and the number of cities, n, is 
+			    limited to a maximum value MAX_NODES.</li>
+			  <li>Code in future work will be tested on values of 
+			    n not much above single digits but code will be
+			    designed to be as efficient as possible, so that
+			    it can scale to large input graphs.</li>
+			  <li>Not all cities need to have a direct path
+			    between them. In this case you can assume there is 
+			    no edge connecting them. In the input graph you
+			    can assume a value for D[i,j] = <em>­1</em> if
+			    there is no edge directly connecting cities/nodes 
+			    i and j.</li>
+			  <li>For all pairs of cities with direct paths, or 
+			    edges between them, then your distance matrix must 
+			    contain a valid value. You can assume MAX_DISTANCE 
+			    is set to 255.</li>
+			  <li>For each node in G, you should consider it the 
+			    starting point of all possible paths to all other 
+			    nodes. You should create a separate process (n in 
+			    total) for each starting node and compute all
+			    paths from that starting point to all other nodes 
+			    and back again to the starting point.</li>
+			  <li>The output of <em>tsp_p</em> is a list of paths
+			  along with overall distance </li>
+			  <li>A path is defined as an ordered sequence of
+			    nodes, from a starting point S visiting all other 
+			    nodes exactly once and then returning back to
+			    S.</li>
+			  <li>The paths should be output along with their 
+			    distances to stdout.</li>
+			  </ul>
+			<h4>The Big Picture of the Multi-process, Traveling
+			Salesman Problem:</h4>
+			<ul>
+			  <li>The first step is for the parent process to the 
+			    input graph from stdin, and perform appropriate 
+			    error checks, to verify its correctness.</li>
+			  <li>The parent process then creates a shared memory 
+			    segment which is big enough for communications 
+			    between parent and child processes. Using the 
+			    "fork" syscall, the parent creates n child 
+			    processes.</li>
+			  <li>A child process uses one of the exec functions
+			    to map a program file called "find_paths" into its 
+			    address space.</li>
+			  <li>The "find_paths" program will take a starting 
+			    node, S, in the input graph and calculate the 
+			    distances of all possible paths from that node to 
+			    all other nodes and back again to S. Aside from S, 
+			    all other nodes along a valid path should only be 
+			    visited once. </li>
+			  <li>The parent process waits until all of the child 
+			    processes have finished, and then outputs the 
+			    resultant set of paths and their distances
+			    stdout.</li>
+			  <li>Each child will send back its paths to the
+			    parent via shared memory. You need to establish 
+			    sufficiently large shared memory between each
+			    child and the parent. This memory region does not 
+			    need to be big enough to store all paths but could 
+			    instead form a communication channel to exchange 
+			    paths as they are produced.</li>
+			  <li>Note that each process has a unique starting 
+			    point. Since there are n possible nodes (or cities 
+			    in the input graph) then each of the n child 
+			    processes has a different one of these nodes as
+			    its starting point.</li>
+			  </ul>
+
+			<h4>Traveling Salesman, Multi-threaded Version:</h4>
+			<p>Problem: The problem to be addressed is the same 
+			  as in "tsp_p", except you will use multiple
+			  threads to calculate paths through a graph instead 
+			  of separate child processes. Your multithreaded 
+			  program should be called "tsp_t".</p>
+
+			<h4>The Big Picture of the Multi-threaded traveling
+			salesman version:</h4>
+			<ul>
+			  <li>The first step is for "tsp_t" to read an input 
+			    graph as before, from stdin, and perform 
+			    appropriate error checks, to verify its
+			    correctness.</li>
+			  <li>Once the "tsp_t" program has read the input 
+			    graph, it will create a series of threads to help 
+			    solve the Travelling Salesman Problem.</li> 
+			  <li>To create threads, you cannot use any supporting 
+			    libraries for thread creation. Instead, you must 
+			    write a function called my_thr_create(), as 
+			    follows: <em>void my_thr_create(void (*func) (int),
+			    int thr_id);</em></li>
+
+			  <li>The first argument is a pointer to a function for 
+			    the thread to execute, while the second argument 
+			    is a unique integer thread ID that you create for 
+			    each new thread. NOTE: To establish the concept of 
+			    a thread, you will either need to establish a 
+			    "ucontext_t" for each thread having a given ID, so 
+			    that you can use setcontext/swapcontext to 
+			    save/restore each thread's state, or you can use 
+			    (sig)setjmp/(sig)longjmp/sigaltstack to implement
+			    the functionality of the context handling 
+			    functions.</li>
+			  <li>A solution that avoids the use of 
+			    set/swapcontext/etc functions is considered a
+			    better solution.</li>
+
+			  <li>Since the main thread and all subthreads share 
+			    the process memory space, there is no need to use 
+			    separate shared memory to store all discovered 
+			    paths. </li>
+			  <li>When all sub­threads have finished their 
+			    "find_paths" operations, the main thread will then 
+			    output the resultant set of paths to stdout.</li>
+			  <li>Hints For Future Work: To create your threads
+			    you will need to understand how context control 
+			    works. This is documented in the GNU document on 
+			    System V contexts.</li>
+			  <li>A more portable approach to implementing
+			  threads, that requires only setjmp/longjmp, 
+			    sigaltstack and signal handling is considered a
+			  better solution.</li>
+			</ul>
+			
+		</div>
+    <div class="footer">
+      <p>Web Site By Karen Shay West</p>
+      <p>Tel: (508) 844-9776</p>
+      <a href="mailto:KarenWest15@gmail.com">KarenWest15@gmail.com</a>
+    </div>
+	</body>
+</html>
